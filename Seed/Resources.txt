@@ -1,0 +1,13 @@
+Seed is a game similar to Moonbase.
+To avoid copyright issues, a few things will be changed in the game to make it a generic strategy game.
+
+Resources based on the name 'Seed'.
+
+Assuming the game will be based on real worls military, the following resources will be required to manufacture units, buildings and maintain the base.
+
+1.) Water (found everywhere)
+2.) Iron Ore (found everywhere)
+3.) Steel (unique resource)
+4.) Food (found everywhere)
+
+03.03.2016: TEsting GitHub

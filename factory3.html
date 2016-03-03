@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Factory</title>
+</head>
+
+<body>
+<!--<p id="demo"></p>-->
+
+afda
+<script>
+var myVar = setInterval(unit ,1000);
+function unit(date_end) {
+var d = Date.parse(date_end) - Date.parse(new Date());
+var seconds = d/1000;
+var minutes = (d/1000)/60;
+var hours = ((d/1000)/60)/60;
+var days = (((d/1000)/60)/60)/24;
+
+return {
+	'total': d,
+	'days': days,
+	'hours': hours,
+	'minutes': minutes,
+	'seconds': seconds
+};
+
+};
+document.writeln(unit('2015-12-31 00:00:00').days);
+document.write("total");
+
+</script>
+sdfgsd
+</body>
+</html>
